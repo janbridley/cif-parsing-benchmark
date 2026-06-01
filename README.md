@@ -49,21 +49,21 @@ python summarize.py
 
 ### MacBook Pro 2015, Intel Core i7 2.2GHz, 512GB SSD
 
- * `ase_100.prof`: 98.3s spent in `read_cif`
- * `pymatgen_100.prof`: 159.0s spent in `from_file`
- * `pycifrw_100.prof`: 91.6s spent in `ReadCif`
- * `pycifrw-fast_100.prof`: 17.6s spent in `ReadCif`
- * `pycodcif_100.prof`: 16.3s spent in `parse`
- * `gemmi_100.prof`: 0.12s spent in `gemmi.cif.read_file`
- * `gemmi_105.prof`: 0.12s spent in `gemmi.cif.read_file`
+* `ase_100.prof`: 98.3s spent in `read_cif`
+* `pymatgen_100.prof`: 159.0s spent in `from_file`
+* `pycifrw_100.prof`: 91.6s spent in `ReadCif`
+* `pycifrw-fast_100.prof`: 17.6s spent in `ReadCif`
+* `pycodcif_100.prof`: 16.3s spent in `parse`
+* `gemmi_100.prof`: 0.12s spent in `gemmi.cif.read_file`
+* `gemmi_105.prof`: 0.12s spent in `gemmi.cif.read_file`
 
 ### Ubuntu 18.04, Intel® Core™ i7-4790 CPU @ 3.60GHz × 8, HDD
 
- * `ase_105.prof`: memory error for mil structures (in `return sqrt(add.reduce(s, axis=axis, keepdims=keepdims)`), seems to use more than 12 GB memory.
- * `pymatgen_105.prof`:  629 +/- 14 s
- * `pycifrw_105.prof`: 127 +/- 2 s
- * `pycifrw-fast_105.prof`: 29 +/- 1 s
- * `pycodcif_105.prof`: 20 +/- 1 s
+* `ase_105.prof`: memory error for mil structures (in `return sqrt(add.reduce(s, axis=axis, keepdims=keepdims)`), seems to use more than 12 GB memory.
+* `pymatgen_105.prof`:  629 +/- 14 s
+* `pycifrw_105.prof`: 127 +/- 2 s
+* `pycifrw-fast_105.prof`: 29 +/- 1 s
+* `pycodcif_105.prof`: 20 +/- 1 s
 
 Note: Extended test set!
 Heavy load (both memory and CPU) parallel to benchmark.
