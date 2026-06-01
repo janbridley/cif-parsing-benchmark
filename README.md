@@ -24,9 +24,8 @@ variant of the code, as it is no longer installable with Python 3.13.
 ## Installation
 
 ```
-conda env create -f environment.yml python=3.7
-conda activate cif-benchmark
-tar xf structures.tar.gz
+uv sync
+tar -xf structures.tar.xz
 ```
 
 ## Benchmark
