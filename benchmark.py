@@ -10,7 +10,7 @@ if package == 'ase':
     from ase.io import read as read_cif
 
 elif package == 'pymatgen':
-    from pymatgen import Structure
+    from pymatgen.core import Structure
     read_cif = Structure.from_file
 
 elif package == 'pycifrw':
