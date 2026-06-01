@@ -6,6 +6,7 @@ Evaluate performance of python libraries for parsing CIF files.
 Candidates considered:
 
  * [ASE](https://pypi.org/project/ase/3.17.0) 3.17.0
+ * [parsnip](https://pypi.org/project/parsnip/0.5.0/) 0.5.0
  * [pymatgen](https://pypi.org/project/pymatgen/2018.12.12/) 2018.12.12
  * [pycifrw](https://pypi.org/project/PyCifRW/4.4.1/) 4.4.1
  * [gemmi](https://pypi.org/project/gemmi/0.4.1/) 0.4.1
