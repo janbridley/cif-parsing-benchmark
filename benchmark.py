@@ -10,7 +10,7 @@ if package == 'ase':
     from ase.io import read as read_cif
 
 elif package == 'pymatgen':
-    from pymatgen import Structure
+    from pymatgen.core import Structure
     read_cif = Structure.from_file
 
 elif package == 'pycifrw':
@@ -29,6 +29,9 @@ elif package == 'pycodcif':
 
 elif package == 'gemmi':
     from gemmi.cif import read_file as read_cif
+
+elif package == 'parsnip':
+    from parsnip import CifFile as read_cif
 
 extension='.cif'
 directory = 'structures'
