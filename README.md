@@ -34,6 +34,9 @@ tar -xf structures.tar.xz
 ./benchmark.sh  # run all benchmarks
 snakeviz pycodcif_105.prof  # inspect one output
 python -m pstats pycofcif_105.prof # or inspect on the command line
+
+# Run the summarization script to generate a new entry for the `## Results` table
+python summarize.py
 ```
 
 ## Results
