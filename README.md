@@ -9,11 +9,11 @@ Candidates considered:
 - [ASE](https://pypi.org/project/ase/3.17.0) 3.17.0
 - [pymatgen](https://pypi.org/project/pymatgen/2018.12.12/) 2018.12.12
 - [pycifrw](https://pypi.org/project/PyCifRW/4.4.1/) 4.4.1
-- [pycodcif](https://pypi.org/project/pycodcif/2.4/) 2.4
 - [gemmi](https://pypi.org/project/gemmi/0.4.1/) 0.4.1
 
-Note: pymatgen was using pycifrw at some point, but dropped its support in pymatgen v3.0
-(due to "issues with installation").
+Note: `pymatgen` was using `pycifrw` at some point, but dropped its support in
+`pymatgen` v3.0 (due to "issues with installation"). `pycodcif` has been removed in this
+variant of the code, as it is no longer installable with Python 3.13.
 
 ### Test sets
 
