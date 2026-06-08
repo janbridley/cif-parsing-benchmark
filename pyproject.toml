@@ -1,0 +1,18 @@
+[project]
+name = "cif-parsing-benchmark"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "ase",
+    "gemmi",
+    "matplotlib",
+    "parsnip-cif",
+    "PyCifRW",
+    "pymatgen",
+    "seaborn"
+]
+
+[dependency-groups]
+dev = [
+    "snakeviz",
+]
