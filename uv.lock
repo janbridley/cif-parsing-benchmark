@@ -660,15 +660,15 @@ wheels = [
 
 [[package]]
 name = "parsnip-cif"
-version = "0.6.0"
+version = "0.6.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "more-itertools" },
     { name = "numpy" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/be/34/c62dbc32a0001e25b422a335526a682c4fc1d164149c0238c6d9e66f1796/parsnip_cif-0.6.0.tar.gz", hash = "sha256:3456ad376fb84c85bd00336c94053509105a0baf374afd8d28de16afc918bcc2", size = 56287, upload-time = "2026-06-10T18:08:55.172Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/21/f1/bc1c7bb3ff1009e4171f459501a1e0d661289131fe471db1cea6a8390e18/parsnip_cif-0.6.1.tar.gz", hash = "sha256:9ec19c76de65a01d0fea4d4d6fc6b7d769eee4237d535d561847353af610794a", size = 56443, upload-time = "2026-06-11T18:43:01.972Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2e/e4/064792e328c2bd9024942662a64452f1541c7c3d096a7cf89f295c237db8/parsnip_cif-0.6.0-py3-none-any.whl", hash = "sha256:6b0a74fc725b9daff01d3c9382606d58a6ef924301e0f721d5a946cc5e344af6", size = 47500, upload-time = "2026-06-10T18:08:53.938Z" },
+    { url = "https://files.pythonhosted.org/packages/3f/35/d15ecd3156a05ce9c74fd352e8c1d06c4660bc3e1bc4951ef7daa5659a3a/parsnip_cif-0.6.1-py3-none-any.whl", hash = "sha256:ff871a8f9ab62d2dbdae98dd8d2269f5dee858e67efbcba830da57e363cfa80a", size = 47564, upload-time = "2026-06-11T18:43:00.724Z" },
 ]
 
 [[package]]
