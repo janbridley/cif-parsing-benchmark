@@ -41,12 +41,12 @@ python summarize.py
 
 ### MacBook Pro 2020, Apple M1, 512GB SSD
 
- * `ase_105.prof`: 2895.7s spent in `read`
- * `pymatgen_105.prof`: 139.2s spent in `from_file`
- * `pycifrw_105.prof`: 51.3s spent in `ReadCif`
- * `pycifrw-fast_105.prof`: 10.8s spent in `ReadCif`
- * `parsnip_105.prof`: 3.6s spent in `__init__`
- * `gemmi_105.prof`: 0.1s spent in `__call__`
+ * `ase_105.prof`: 2772s spent in `read`
+ * `pymatgen_105.prof`: 135s spent in `from_file`
+ * `pycifrw_105.prof`: 47.0s spent in `ReadCif`
+ * `pycifrw-fast_105.prof`: 10.6s spent in `ReadCif`
+ * `parsnip_105.prof`: 2.1s spent in `__init__`
+ * `gemmi_105.prof`: 0.4s spent in `__call__`
 
 ### MacBook Pro 2015, Intel Core i7 2.2GHz, 512GB SSD
 
